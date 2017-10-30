@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="01adb67c-0e36-4e97-992c-5b120af0eaae" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://srv-tst-360int1/SendEboksService/DocumentData.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="DocumentData.xsd" MetadataType="Schema" ID="5a9ddd75-68ec-4654-bd6c-8271e1634df3" SourceId="1" SourceUrl="http://srv-tst-360int1/SendEboksService/DocumentData.svc?xsd=xsd1" />
+    <MetadataFile FileName="DocumentData.disco" MetadataType="Disco" ID="6d7d78c8-3443-4173-9573-de20c9ff2114" SourceId="1" SourceUrl="http://srv-tst-360int1/SendEboksService/DocumentData.svc?disco" />
+    <MetadataFile FileName="DocumentData.wsdl" MetadataType="Wsdl" ID="66c45929-097d-4429-af5a-2c6b2dac01b2" SourceId="1" SourceUrl="http://srv-tst-360int1/SendEboksService/DocumentData.svc?wsdl" />
+    <MetadataFile FileName="DocumentData1.xsd" MetadataType="Schema" ID="83582264-f06d-4c1c-8761-f9a6d7166dd5" SourceId="1" SourceUrl="http://srv-tst-360int1/SendEboksService/DocumentData.svc?xsd=xsd0" />
+    <MetadataFile FileName="DocumentData2.xsd" MetadataType="Schema" ID="0dae0748-5300-4c85-b5d6-e5ac2a79e6fd" SourceId="1" SourceUrl="http://srv-tst-360int1/SendEboksService/DocumentData.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

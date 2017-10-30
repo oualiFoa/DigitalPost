@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalPostWcfService", "DigitalPostWcfService\DigitalPostWcfService.csproj", "{5F1153E0-B5C1-41F9-B0E4-8A5656256CC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendDokumenter", "SendDokumenter\SendDokumenter.csproj", "{943FA525-9FAE-46C7-853B-74C09DC0659F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5F1153E0-B5C1-41F9-B0E4-8A5656256CC0} = {5F1153E0-B5C1-41F9-B0E4-8A5656256CC0}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dokumenter.Domain", "Dokumenter.Domain\Dokumenter.Domain.csproj", "{F832CA9C-4D95-4224-A83D-A2D52ADCDA5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendDokumenter.iis", "SendDokumenter.iis\SendDokumenter.iis.csproj", "{FC9A477B-1C04-43AA-8F23-31C120F98A4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalPost.Database", "DigitalPost.Database\DigitalPost.Database.csproj", "{17DC79A5-228C-43BD-899D-62D2410FF134}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalPost.Domain", "DigitalPost.Domain\DigitalPost.Domain.csproj", "{F6F8CD38-3435-41DF-87EC-430CE8F67A71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F1153E0-B5C1-41F9-B0E4-8A5656256CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F1153E0-B5C1-41F9-B0E4-8A5656256CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F1153E0-B5C1-41F9-B0E4-8A5656256CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F1153E0-B5C1-41F9-B0E4-8A5656256CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{943FA525-9FAE-46C7-853B-74C09DC0659F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{943FA525-9FAE-46C7-853B-74C09DC0659F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{943FA525-9FAE-46C7-853B-74C09DC0659F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{943FA525-9FAE-46C7-853B-74C09DC0659F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F832CA9C-4D95-4224-A83D-A2D52ADCDA5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F832CA9C-4D95-4224-A83D-A2D52ADCDA5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F832CA9C-4D95-4224-A83D-A2D52ADCDA5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F832CA9C-4D95-4224-A83D-A2D52ADCDA5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC9A477B-1C04-43AA-8F23-31C120F98A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC9A477B-1C04-43AA-8F23-31C120F98A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC9A477B-1C04-43AA-8F23-31C120F98A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC9A477B-1C04-43AA-8F23-31C120F98A4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17DC79A5-228C-43BD-899D-62D2410FF134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17DC79A5-228C-43BD-899D-62D2410FF134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17DC79A5-228C-43BD-899D-62D2410FF134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17DC79A5-228C-43BD-899D-62D2410FF134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6F8CD38-3435-41DF-87EC-430CE8F67A71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6F8CD38-3435-41DF-87EC-430CE8F67A71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6F8CD38-3435-41DF-87EC-430CE8F67A71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6F8CD38-3435-41DF-87EC-430CE8F67A71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

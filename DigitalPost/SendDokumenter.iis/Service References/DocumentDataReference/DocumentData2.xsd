@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/DigitalPostWcfService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/DigitalPostWcfService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="AttachedDocuments">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AttachedFiles" nillable="true" type="tns:ArrayOfAttachedFile" />
+      <xs:element minOccurs="0" name="EmailAddress" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Emneord" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Medlemsnummer" type="xs:int" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OrganizationUnitName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrimaryClass" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProductionUnit" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Sagsnummer" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SecondaryClass" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AttachedDocuments" nillable="true" type="tns:AttachedDocuments" />
+  <xs:complexType name="ArrayOfAttachedFile">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AttachedFile" nillable="true" type="tns:AttachedFile" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAttachedFile" nillable="true" type="tns:ArrayOfAttachedFile" />
+  <xs:complexType name="AttachedFile">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Document" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="FileName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AttachedFile" nillable="true" type="tns:AttachedFile" />
+</xs:schema>

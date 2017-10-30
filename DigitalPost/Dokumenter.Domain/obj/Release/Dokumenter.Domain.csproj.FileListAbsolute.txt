@@ -1,0 +1,4 @@
+C:\work\bruger\fifa\ESDH\DigitalPost\Dokumenter.Domain\bin\Release\Dokumenter.Domain.dll
+C:\work\bruger\fifa\ESDH\DigitalPost\Dokumenter.Domain\bin\Release\Dokumenter.Domain.pdb
+C:\work\bruger\fifa\ESDH\DigitalPost\Dokumenter.Domain\obj\Release\Dokumenter.Domain.dll
+C:\work\bruger\fifa\ESDH\DigitalPost\Dokumenter.Domain\obj\Release\Dokumenter.Domain.pdb

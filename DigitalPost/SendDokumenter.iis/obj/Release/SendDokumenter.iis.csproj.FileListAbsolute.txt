@@ -1,0 +1,8 @@
+C:\work\bruger\fifa\ESDH\DigitalPost\SendDokumenter.iis\bin\Release\SendDokumenter.iis.exe.config
+C:\work\bruger\fifa\ESDH\DigitalPost\SendDokumenter.iis\bin\Release\SendDokumenter.iis.exe
+C:\work\bruger\fifa\ESDH\DigitalPost\SendDokumenter.iis\bin\Release\SendDokumenter.iis.pdb
+C:\work\bruger\fifa\ESDH\DigitalPost\SendDokumenter.iis\bin\Release\Dokumenter.Domain.dll
+C:\work\bruger\fifa\ESDH\DigitalPost\SendDokumenter.iis\bin\Release\Dokumenter.Domain.pdb
+C:\work\bruger\fifa\ESDH\DigitalPost\SendDokumenter.iis\obj\Release\SendDokumenter.iis.csprojResolveAssemblyReference.cache
+C:\work\bruger\fifa\ESDH\DigitalPost\SendDokumenter.iis\obj\Release\SendDokumenter.iis.exe
+C:\work\bruger\fifa\ESDH\DigitalPost\SendDokumenter.iis\obj\Release\SendDokumenter.iis.pdb
